@@ -1,4 +1,4 @@
-# classified
+# classified [![GoDoc](https://godoc.org/github.com/Sayan98/classified?status.svg)](https://godoc.org/github.com/Sayan98/classified)
 
 `Redact` or `Sanitize` your classified Go strings.
 

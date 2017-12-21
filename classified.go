@@ -6,10 +6,10 @@ import (
 	"fmt"
 )
 
-/**
+/*
 Given a string, redact it
 
-Example - `Go Lang` becomes `[REDACTED] [REDACTED]`
+Example - "Go Lang" becomes "[REDACTED] [REDACTED]"
 
 Link - https://en.wikipedia.org/wiki/Redaction
 */
@@ -23,10 +23,10 @@ func Redact(s string) string {
     return strings.Join(str, " ")
 } 
 
-/**
+/*
 Given a string, sanitize it
 
-Example - `Go Lang` becomes `██ ████`
+Example - "Go Lang" becomes "██ ████"
 
 Link - https://en.wikipedia.org/wiki/Sanitization_(classified_information)
 */
