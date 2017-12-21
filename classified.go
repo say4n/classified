@@ -7,9 +7,11 @@ import (
 )
 
 /**
-* Given a string, redact it
-* Example - "Go Lang" becomes "[REDACTED] [REDACTED]"
-* Link - https://en.wikipedia.org/wiki/Redaction
+Given a string, redact it
+
+Example - `Go Lang` becomes `[REDACTED] [REDACTED]`
+
+Link - https://en.wikipedia.org/wiki/Redaction
 */
 func Redact(s string) string {
 	redaction := "[REDACTED]"
@@ -22,9 +24,11 @@ func Redact(s string) string {
 } 
 
 /**
-* Given a string, sanitize it
-* Example - "Go Lang" becomes "██ ████"
-* Link - https://en.wikipedia.org/wiki/Sanitization_(classified_information)
+Given a string, sanitize it
+
+Example - `Go Lang` becomes `██ ████`
+
+Link - https://en.wikipedia.org/wiki/Sanitization_(classified_information)
 */
 func Sanitize(s string) string {
 	sanitization := []rune("█")[0]
