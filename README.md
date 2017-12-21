@@ -5,14 +5,14 @@
 The above sentence would look like `██████ ██ ████████ ████ ██████████ ██ ███████` when sanitized and `[REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]` when redacted.
 
 ## Usage
-Install the package with `go get github.com/Sayan98/classified/classified`
+Install the package with `go get github.com/Sayan98/classified`
 
 ```go
 package main
 
 
 import (
-    "github.com/Sayan98/classified/classified"
+    "github.com/Sayan98/classified"
     "fmt"
 )
 
