@@ -2,7 +2,7 @@ package main
 
 
 import (
-    "./classified"
+    "github.com/Sayan98/classified/classified"
     "fmt"
 )
 
